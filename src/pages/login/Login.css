@@ -1,0 +1,92 @@
+.loginTitle {
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgb(26, 25, 25);
+  letter-spacing: 5px;
+}
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: 
+    url("..//register/magazine-3680550_1920.jpg");
+  background-size: cover;
+}
+
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(231, 64, 64);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loginButton:hover{
+  background-color: rgb(219, 18, 18);
+
+}
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color:rgb(30, 0, 197);
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 10px;
+}
+.loginRegisterButton:hover{
+  background-color: rgb(48, 27, 165);}
+
+.img-background{
+  height: calc(100vh - 50px);
+  background:url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80");
+  background-size: cover;
+}
+.loginInput {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border: none;
+  background: transparent;
+  border: none;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; 
+  border: 1px solid rgb(175, 175, 175);
+}
+
+::placeholder{
+  color: rgb(46, 46, 46);
+  font-weight: 400;
+}
+label{
+  font-size: 20px;
+  font-weight: 600;
+  color: wheat;
+  }
+  
